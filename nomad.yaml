@@ -25,6 +25,10 @@ elastic:
     materials_index: nomad_oasis_materials_v1
 
 plugins:
+  include:
+    - 'schemas/nomad_material_processing'
+    - 'schemas/nomad_measurements'
+    - 'parsers/nomad_measurements/xrd'
   options:
     schemas/nomad_material_processing:
       python_package: nomad_material_processing
