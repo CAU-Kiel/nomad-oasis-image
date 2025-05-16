@@ -24,7 +24,7 @@ dependencies = ["nomad-lab[parsing, infrastructure]>=1.3.4", "setuptools"]
 
 
 [project.urls]
-repository = "https://github.com/FAIRmat-NFDI/nomad-distro-template"
+repository = "https://github.com/cau-kiel/nomad-oasis-image"
 
 [project.optional-dependencies]
 plugins = [
