@@ -28,7 +28,7 @@ repository = "https://github.com/cau-kiel/nomad-oasis-image"
 
 [project.optional-dependencies]
 plugins = [
-  "nomad-measurements>=1.2.0",
+  "nomad-measurements>=1.1.2",
   "nomad-material-processing>=1.0.5",
 ]
 jupyter = []
