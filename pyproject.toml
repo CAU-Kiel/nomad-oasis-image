@@ -30,6 +30,9 @@ repository = "https://github.com/cau-kiel/nomad-oasis-image"
 plugins = [
   "nomad-measurements>=1.1.2",
   "nomad-material-processing>=1.0.5",
+  "nomad-cau-plugin @ git+https://github.com/CAU-Kiel/nomad-cau-plugin.git@1a4dd99f571c4099e09da6b53538297518505175",
+]
+
 ]
 jupyter = []
 dev = ["nomad-lab[parsing, infrastructure, dev]>=1.3.4"]
