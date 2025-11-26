@@ -2024,7 +2024,7 @@ wheels = [
 [[package]]
 name = "nomad-cau-plugin"
 version = "0.1.0"
-source = { git = "https://github.com/CAU-Kiel/nomad-cau-plugin.git?rev=d4ca1af65148da26599824ca7c5adc2ddd64240e#d4ca1af65148da26599824ca7c5adc2ddd64240e" }
+source = { git = "https://github.com/CAU-Kiel/nomad-cau-plugin.git?rev=3d01d73bcc70946cbbe63ea9a0e259ef6d61e57e#3d01d73bcc70946cbbe63ea9a0e259ef6d61e57e" }
 dependencies = [
     { name = "nomad-lab" },
     { name = "pdfplumber" },
@@ -2051,7 +2051,7 @@ plugins = [
 
 [package.metadata]
 requires-dist = [
-    { name = "nomad-cau-plugin", marker = "extra == 'plugins'", git = "https://github.com/CAU-Kiel/nomad-cau-plugin.git?rev=d4ca1af65148da26599824ca7c5adc2ddd64240e" },
+    { name = "nomad-cau-plugin", marker = "extra == 'plugins'", git = "https://github.com/CAU-Kiel/nomad-cau-plugin.git?rev=3d01d73bcc70946cbbe63ea9a0e259ef6d61e57e" },
     { name = "nomad-lab", extras = ["dev", "infrastructure", "parsing"], marker = "extra == 'dev'", specifier = ">=1.3.4" },
     { name = "nomad-lab", extras = ["infrastructure", "parsing"], specifier = ">=1.3.4" },
     { name = "nomad-material-processing", marker = "extra == 'plugins'", specifier = ">=1.0.5" },
